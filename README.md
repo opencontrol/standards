@@ -1,11 +1,11 @@
-# PCI-DSS-Certifications
-PCI Certifications for [Compliance Masonry](https://github.com/opencontrol/compliance-masonry)
+# PCI-DSS-Standards
+PCI Standards for [Compliance Masonry](https://github.com/opencontrol/compliance-masonry)
 
 To import these data into a OpenControl project add the follow code to your opencontrol.yaml file.
 ```yaml
 dependencies:
   certifications:
-    - url: https://github.com/opencontrol/PCI-DSS-Certifications
+    - url: https://github.com/opencontrol/PCI-DSS-Standards
       revision: master
 ```
 
