@@ -1,6 +1,6 @@
 schema_version: "1.0.0"
-name: PCI DSS Certifications
+name: PCI DSS Standards
 metadata:
-  description: "PCI DSS specific certification templates"
-certifications:
+  description: "PCI DSS Standards"
+standards:
   - ./PCI-DSS-MAY-2015.yaml
