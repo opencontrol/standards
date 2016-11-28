@@ -1,5 +1,5 @@
 schema_version: "1.0.0"
-name: PCI DSS Standards
+name: PCI-DSS-Standards
 metadata:
   description: "PCI DSS Standards"
 standards:
