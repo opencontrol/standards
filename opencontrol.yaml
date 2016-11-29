@@ -3,4 +3,4 @@ name: PCI-DSS-Standards
 metadata:
   description: "PCI DSS Standards"
 standards:
-  - ./PCI-DSS-MAY-2015.yaml
+  - ./PCI-DSS-Standards.yaml
