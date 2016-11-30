@@ -170,11 +170,6 @@ Requirement 3:
   name: Do not store the card verification code or value (three-digit or four-digit
     number printed on the front or back of a payment card used to verify card-not-present
     transactions) after authorization.
-3.2:
-  family: '3'
-  name: Do not store sensitive authentication data after authorization (even if encrypted).
-    If sensitive authentication data is received, render all data unrecoverable upon
-    completion of the authorization process.
 3.2.3:
   family: '3'
   name: Do not store the personal identification number (PIN) or the encrypted PIN
