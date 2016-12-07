@@ -2700,8 +2700,7 @@ SC-7 (12):
 
 SC-7 (13):
   family: SC
-  name: Boundary Protection | Isolation of Security Tools / Mechanisms / Support
-  Components
+  name: Boundary Protection | Isolation of Security Tools / Mechanisms / Support Components
   description: |
     'The organization isolates [Assignment: organization-defined information
     security tools, mechanisms, and support components] from other internal
