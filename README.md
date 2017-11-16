@@ -4,7 +4,7 @@ To import these data into a OpenControl project add the follow code to your open
 ```yaml
 dependencies:
   standards:
-    - url: https://github.com/opencontrol/NIST-800-53-Standards
+    - url: https://github.com/opencontrol/standards
       revision: master
 ```
 
