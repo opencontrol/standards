@@ -6,3 +6,4 @@ metadata:
     - Shawn Wells (shawn@redhat.com)
 standards:
   - ./NIST-800-53-rev3.yaml
+  - ./pci-dss.yaml
