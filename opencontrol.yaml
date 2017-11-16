@@ -1,0 +1,8 @@
+schema_version: "1.0.0"
+name: NIST-800-53 Standards
+metadata:
+  description: "NIST-800-53 Standards"
+  maintainers:
+    - gabriel.ramirez@gsa.gov
+standards:
+  - ./NIST-800-53.yaml
