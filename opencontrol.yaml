@@ -1,8 +1,8 @@
 schema_version: "1.0.0"
-name: NIST-800-53 Standards
+name: Standards
 metadata:
-  description: "NIST-800-53 Standards"
+  description: "Standards"
   maintainers:
-    - gabriel.ramirez@gsa.gov
+    - Shawn Wells (shawn@redhat.com)
 standards:
-  - ./NIST-800-53.yaml
+  - ./NIST-800-53-rev3.yaml
