@@ -1,0 +1,9 @@
+schema_version: "1.0.0"
+name: Standards
+metadata:
+  description: "Standards"
+  maintainers:
+    - Shawn Wells (shawn@redhat.com)
+standards:
+  - ./NIST-800-53-rev3.yaml
+  - ./pci-dss.yaml
