@@ -7,4 +7,5 @@ metadata:
 standards:
   - ./nist-800-53-rev3.yaml
   - ./nist-800-53-rev4.yaml
+  - ./nist-800-53-latest.yaml
   - ./pci-dss.yaml
