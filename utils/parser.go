@@ -88,9 +88,9 @@ func main() {
 	controls := map[string]Control{}
 
 	for _, xmlControl := range xmlStandard.Controls {
-		if !parseBaseline("MODERATE", xmlControl.BaselineImpact) {
-			continue
-		}
+		// if !parseBaseline("HIGH", xmlControl.BaselineImpact) {
+		//	continue
+		//}
 
 		family := parseFamily(xmlControl.Family)
 		name := strings.Title(strings.ToLower(xmlControl.Title))
@@ -105,9 +105,9 @@ func main() {
 		controls[xmlControl.Number] = control
 
 		for _, controlEnhancement := range xmlControl.ControlEnhancements {
-			if !parseBaseline("MODERATE", controlEnhancement.BaselineImpact) {
-				continue
-			}
+			//if !parseBaseline("HIGH", controlEnhancement.BaselineImpact) {
+			//	continue
+			//}
 
 			name := strings.Title(strings.ToLower(controlEnhancement.Title))
 			description := "\"" + strings.TrimSuffix(parseDescription(family, controlEnhancement.Statements), "\n") + "\""
