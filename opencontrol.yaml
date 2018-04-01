@@ -5,6 +5,6 @@ metadata:
   maintainers:
     - Shawn Wells (shawn@redhat.com)
 standards:
-  - ./NIST-800-53-rev3.yaml
-  - ./NIST-800-53-rev4.yaml
+  - ./nist-800-53-rev3.yaml
+  - ./nist-800-53-rev4.yaml
   - ./pci-dss.yaml
