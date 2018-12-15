@@ -1,4 +1,4 @@
-name: NIST-800-53 rev3
+name: NIST SP 800-53 Rev. 3
 AC-1:
   family: AC
   name: Access Control Policy And Procedures

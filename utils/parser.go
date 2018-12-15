@@ -122,7 +122,7 @@ func main() {
 		}
 	}
 
-	standard := Standard{Name: "NIST-800-53", Controls: controls}
+	standard := Standard{Name: "NIST SP 800-53 Rev. 4", Controls: controls}
 
 	y, err := yaml.Marshal(&standard)
 	if err != nil {

@@ -13,7 +13,7 @@ To run the ``parser.go`` script:
 $ go run utils/parser.go <output>
 ``
 
-For example, when NIST 800-53 rev5 comes out:
+For example, when NIST SP 800-53 Rev. 5 comes out:
 ``
 $ go run utils/parser.go nist-800-53-rev5.yaml
 ``
