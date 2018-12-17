@@ -110,7 +110,7 @@ func main() {
 			//}
 
 			name := strings.Title(strings.ToLower(controlEnhancement.Title))
-			description := "\"" + strings.TrimSuffix(parseDescription(family, controlEnhancement.Statements), "\n") + "\""
+			description := strings.TrimSuffix(parseDescription(family, controlEnhancement.Statements), "\n")
 
 			control := Control{
 				Family:      family,
