@@ -94,7 +94,7 @@ func main() {
 
 		family := parseFamily(xmlControl.Family)
 		name := strings.Title(strings.ToLower(xmlControl.Title))
-		description := "\"" + strings.TrimSuffix(parseDescription(family, xmlControl.Statements), "\n") + "\""
+		description := strings.TrimSuffix(parseDescription(family, xmlControl.Statements), "\n")
 
 		control := Control{
 			Family:      family,
