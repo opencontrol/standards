@@ -69,6 +69,10 @@ type XMLReference struct {
 }
 
 func main() {
+	if len(os.Args) == 1 {
+		panic("Expecting command-line argument: output-file.yaml")
+	}
+
 	resp, err := http.Get(standardURL)
 	if err != nil {
 		panic(err)
