@@ -203,11 +203,11 @@ func parseDescription(family string, statements []XMLStatement) string {
 
 			if len(chars) > 1 {
 				for _, char := range chars[1:] {
-					description += fmt.Sprintf("    %s.  %s\n", char, s.Description)
+					description += fmt.Sprintf("   - %s.  %s\n", char, s.Description)
 
 				}
 			} else {
-				description += fmt.Sprintf("  %s.  %s\n", chars[0], s.Description)
+				description += fmt.Sprintf(" - %s.  %s\n", chars[0], s.Description)
 			}
 
 		} else {
