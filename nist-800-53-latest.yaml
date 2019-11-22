@@ -142,7 +142,7 @@ AC-3 (4):
     The information system enforces [Assignment: organization-defined discretionary access control policy] over defined subjects and objects where the policy specifies that a subject that has been granted access to information can do one or more of the following:
        (4)(a).  Pass the  information to any other subjects or objects;
        (4)(b).  Grant its privileges to other subjects;
-       (4)(c).  Change security attributes on subjects, objects, the information system, or the information system�s components;
+       (4)(c).  Change security attributes on subjects, objects, the information system, or the information system's components;
        (4)(d).  Choose the security attributes to be associated with newly created or revised objects; or
        (4)(e).  Change the rules governing access control.
 AC-3 (5):
@@ -703,7 +703,7 @@ AC-20 (1):
   name: Limits On Authorized Use
   description: |-
     The organization permits authorized individuals to use an external information system to access the information system or to process, store, or transmit organization-controlled information only when the organization:
-       (1)(a).  Verifies the implementation of required security controls on the external system as specified in the organization�s information security policy and security plan; or
+       (1)(a).  Verifies the implementation of required security controls on the external system as specified in the organization's information security policy and security plan; or
        (1)(b).  Retains approved information system connection or processing agreements with the organizational entity hosting the external information system.
 AC-20 (2):
   family: AC
@@ -1315,7 +1315,7 @@ CA-5:
   name: Plan Of Action And Milestones
   description: |-
     The organization:
-      a.  Develops a plan of action and milestones for the information system to document the organization�s planned remedial actions to correct weaknesses or deficiencies noted during the assessment of the security controls and to reduce or eliminate known vulnerabilities in the system; and
+      a.  Develops a plan of action and milestones for the information system to document the organization's planned remedial actions to correct weaknesses or deficiencies noted during the assessment of the security controls and to reduce or eliminate known vulnerabilities in the system; and
       b.  Updates existing plan of action and milestones [Assignment: organization-defined frequency] based on the findings from security controls assessments, security impact analyses, and continuous monitoring activities.
 CA-5 (1):
   family: CA
@@ -3350,7 +3350,7 @@ PL-2:
   description: |-
     The organization:
       a.  Develops a security plan for the information system that:
-        1.  Is consistent with the organization�s enterprise architecture;
+        1.  Is consistent with the organization's enterprise architecture;
         2.  Explicitly defines the authorization boundary for the system;
         3.  Describes the operational context of the information system in terms of missions and business processes;
         4.  Provides the security categorization of the information system including supporting rationale;
@@ -4308,7 +4308,7 @@ SA-17:
   name: Developer Security Architecture And Design
   description: |-
     The organization requires the developer of the information system, system component, or information system service to produce a design specification and security architecture that:
-      a.  Is consistent with and supportive of the organization�s security architecture which is established within and is an integrated part of the organization�s enterprise architecture;
+      a.  Is consistent with and supportive of the organization's security architecture which is established within and is an integrated part of the organization's enterprise architecture;
       b.  Accurately and completely describes the required security functionality, and the allocation of security controls among physical and logical components; and
       c.  Expresses how individual security functions, mechanisms, and services work together to provide required security capabilities and a unified approach to protection.
 SA-17 (1):
