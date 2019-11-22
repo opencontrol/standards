@@ -2,17 +2,15 @@ package main
 
 import (
 	"encoding/xml"
+	"flag"
 	"fmt"
 	"io/ioutil"
 	"net/http"
-	"os"
 	"regexp"
 	"strings"
 
 	yaml "gopkg.in/yaml.v2"
 )
-
-const standardURL = "http://nvd.nist.gov/static/feeds/xml/sp80053/rev4/800-53-controls.xml"
 
 type XMLStandard struct {
 	Controls []XMLControl `xml:"control"`
@@ -69,7 +67,14 @@ type XMLReference struct {
 }
 
 func main() {
-	resp, err := http.Get(standardURL)
+	standardURL := flag.String("source", "http://nvd.nist.gov/static/feeds/xml/sp80053/rev4/800-53-controls.xml", "url to fetch controls from")
+	flag.Parse()
+
+	if len(flag.Args()) == 0 {
+		panic("Expecting command-line argument: output-file.yaml")
+	}
+
+	resp, err := http.Get(*standardURL)
 	if err != nil {
 		panic(err)
 	}
@@ -129,7 +134,7 @@ func main() {
 		panic(err)
 	}
 
-	if err := ioutil.WriteFile(os.Args[1], y, 0644); err != nil {
+	if err := ioutil.WriteFile(flag.Arg(0), y, 0644); err != nil {
 		panic(err)
 	}
 }
